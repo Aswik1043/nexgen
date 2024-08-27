@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXGEN Job Portal</title>
+    <link rel="icon" href="../images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <h1 class="company-name">
+                <span class="nex">NEXGEN</span><br><span class="gen">NEXTOPIA</span>
+            </h1>
+        </div>
+        <div class="navbar-center">
+            <div class="search-container">
+                <input type="text" class="search-bar" id="mainSearchBar" placeholder="Search for jobs..." onclick="expandSearchBar()">
+                <div class="expanded-search" id="expandedSearch">
+                    <select class="search-dropdown">
+                        <option value="" disabled selected>Select</option>
+                        <option value="internship">Internship</option>
+                        <option value="jobs">Jobs</option>
+                    </select>
+                    <input type="text" class="search-field" placeholder="Select Job or Company">
+                    <input type="text" class="search-field" placeholder="Location">
+                </div>
+            </div>
+            <button class="action-btnh"><a href="./index.html" style="text-decoration: none; color: white;"> Home</a></button>
+            <button class="action-btn">Search</button>
+            <div class="dropdown">
+                <button class="dropbtn">Opportunities</button>
+                <div class="dropdown-content">
+                    <a href="#">Recommended Jobs</a>
+                    <a href="#">Job Invites</a>
+                    <a href="#">Job Alerts</a>
+                    <a href="#">Application Status</a>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-right">
+            <div class="profile-dropdown">
+                <img src="../images/aswik.jpg" alt="Profile Logo" class="profile-logo" onclick="toggleProfileMenu()">
+                <div class="profile-menu" id="profileMenu">
+                    <a href="login.html">Logout</a>
+                    <a href="#">Settings</a>
+                    <a href="#">About</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Area -->
+    <div class="main-content">
+        <!-- Left Side (Small Block) -->
+        <div class="left-side">
+            <h2>User Profile</h2>
+            <div class="profile-info">
+                <img src="../images/aswik.jpg" alt="Profile Logo" class="profile-logo-small">
+                <div class="profile-details">
+                    <h3>ASWIK M</h3>
+                    <p>Email: aswikoff@aswikoff.com</p>
+                    <p>Phone: 8524023688</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Center (Big Block) -->
+        <div class="center-block">
+            <h2>Mentor List</h2>
+            <div class="job-list">
+                <!-- Example Job Listings -->
+                <div class="mentor-item">
+                    <h3>Thayananthan R A</h3>
+                    <p id="designation">Software Engineer<p>
+                    <p><strong>Company: </strong>TechCorp</p>
+                    <p><strong>Location: </strong>New York, NY</p>
+                    <p><strong>Domain: </strong>Pega</p>
+                    <p><strong>Experience: </strong>O-5 Years</p>
+                    <button class="request-btn"><a href="https://docs.google.com/forms/d/1uIQUnP05qOlXybAmEn92CHVrR_OCorYQbz4uYXLulwM/edit" target="_blank" style="text-decoration: none; color: white;">Request</a> </button>
+                    <img src="../images/aswik.jpg" alt="Mentor Profile picture"/>
+                </div>
+                <div class="mentor-item">
+                    <h3>Thayananthan R A</h3>
+                    <p id="designation">Software Engineer<p>
+                    <p><strong>Company: </strong>TechCorp</p>
+                    <p><strong>Location: </strong>New York, NY</p>
+                    <p><strong>Domain: </strong>Pega</p>
+                    <p><strong>Experience: </strong>O-5 Years</p>
+                    <button class="request-btn"><a href="https://docs.google.com/forms/d/1uIQUnP05qOlXybAmEn92CHVrR_OCorYQbz4uYXLulwM/edit" target="_blank" style="text-decoration: none; color: white;">Request</a> </button>
+                    <img src="../images/aswik.jpg" alt="Mentor Profile picture"/>
+                </div>
+                <div class="mentor-item">
+                    <h3>Thayananthan R A</h3>
+                    <p id="designation">Software Engineer<p>
+                    <p><strong>Company: </strong>TechCorp</p>
+                    <p><strong>Location: </strong>New York, NY</p>
+                    <p><strong>Domain: </strong>Pega</p>
+                    <p><strong>Experience: </strong>O-5 Years</p>
+                    <button class="request-btn"><a href="https://docs.google.com/forms/d/1uIQUnP05qOlXybAmEn92CHVrR_OCorYQbz4uYXLulwM" target="_blank" style="text-decoration: none; color: white;">Request</a> </button>
+                    <img src="../images/aswik.jpg" alt="Mentor Profile picture"/>
+                </div>
+                <div class="mentor-item">
+                    <h3>Thayananthan R A</h3>
+                    <p id="designation">Software Engineer<p>
+                    <p><strong>Company: </strong>TechCorp</p>
+                    <p><strong>Location: </strong>New York, NY</p>
+                    <p><strong>Domain: </strong>Pega</p>
+                    <p><strong>Experience: </strong>O-5 Years</p>
+                    <button class="request-btn"><a href="https://docs.google.com/forms/d/1uIQUnP05qOlXybAmEn92CHVrR_OCorYQbz4uYXLulwM" target="_blank" style="text-decoration: none; color: white;">Request</a> </button>
+                    <img src="../images/aswik.jpg" alt="Mentor Profile picture"/>
+                </div>
+                <div class="mentor-item">
+                    <h3>Thayananthan R A</h3>
+                    <p id="designation">Software Engineer<p>
+                    <p><strong>Company: </strong>TechCorp</p>
+                    <p><strong>Location: </strong>New York, NY</p>
+                    <p><strong>Domain: </strong>Pega</p>
+                    <p><strong>Experience: </strong>O-5 Years</p>
+                    <button class="request-btn"><a href="https://docs.google.com/forms/d/1uIQUnP05qOlXybAmEn92CHVrR_OCorYQbz4uYXLulwM" target="_blank" style="text-decoration: none; color: white;">Request</a> </button>
+                    <img src="../images/aswik.jpg" alt="Mentor Profile picture"/>
+                </div>
+                <div class="mentor-item">
+                    <h3>Thayananthan R A</h3>
+                    <p id="designation">Software Engineer<p>
+                    <p><strong>Company: </strong>TechCorp</p>
+                    <p><strong>Location: </strong>New York, NY</p>
+                    <p><strong>Domain: </strong>Pega</p>
+                    <p><strong>Experience: </strong>O-5 Years</p>
+                    <button class="request-btn"><a href="https://docs.google.com/forms/d/1uIQUnP05qOlXybAmEn92CHVrR_OCorYQbz4uYXLulwM" target="_blank" style="text-decoration: none; color: white;">Request</a> </button>
+                    <img src="../images/aswik.jpg" alt="Mentor Profile picture"/>
+                </div>
+                <div class="mentor-item">
+                    <h3>Thayananthan R A</h3>
+                    <p id="designation">Software Engineer<p>
+                    <p><strong>Company: </strong>TechCorp</p>
+                    <p><strong>Location: </strong>New York, NY</p>
+                    <p><strong>Domain: </strong>Pega</p>
+                    <p><strong>Experience: </strong>O-5 Years</p>
+                    <button class="request-btn"><a href="https://docs.google.com/forms/d/1uIQUnP05qOlXybAmEn92CHVrR_OCorYQbz4uYXLulwM" target="_blank" style="text-decoration: none; color: white;">Request</a> </button>
+                    <img src="../images/aswik.jpg" alt="Mentor Profile picture"/>
+                </div>
+                <div class="mentor-item">
+                    <h3>Thayananthan R A</h3>
+                    <p id="designation">Software Engineer<p>
+                    <p><strong>Company: </strong>TechCorp</p>
+                    <p><strong>Location: </strong>New York, NY</p>
+                    <p><strong>Domain: </strong>Pega</p>
+                    <p><strong>Experience: </strong>O-5 Years</p>
+                    <button class="request-btn"><a href="https://docs.google.com/forms/d/1uIQUnP05qOlXybAmEn92CHVrR_OCorYQbz4uYXLulwM" target="_blank" style="text-decoration: none; color: white;">Request</a> </button>
+                    <img src="../images/aswik.jpg" alt="Mentor Profile picture"/>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Side (Small Block) -->
+        <div class="right-side">
+            <h2>Latest News</h2>
+            <div class="news-list">
+                <!-- Example News Items -->
+                <div class="news-item">
+                    <h3>Industry Update</h3>
+                    <p>New trends in the tech industry...</p>
+                </div>
+                <div class="news-item">
+                    <h3>Industry Update</h3>
+                    <p>New trends in the tech industry...</p>
+                </div>
+                <div class="news-item">
+                    <h3>Industry Update</h3>
+                    <p>New trends in the tech industry...</p>
+                </div>
+                <div class="news-item">
+                    <h3>Industry Update</h3>
+                    <p>New trends in the tech industry...</p>
+                </div>
+                <div class="news-item">
+                    <h3>Industry Update</h3>
+                    <p>New trends in the tech industry...</p>
+                </div>
+                <div class="news-item">
+                    <h3>Industry Update</h3>
+                    <p>New trends in the tech industry...</p>
+                </div>
+                <div class="news-item">
+                    <h3>Industry Update</h3>
+                    <p>New trends in the tech industry...</p>
+                </div>
+                <div class="news-item">
+                    <h3>Industry Update</h3>
+                    <p>New trends in the tech industry...</p>
+                </div>
+                <div class="news-item">
+                    <h3>Industry Update</h3>
+                    <p>New trends in the tech industry...</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container ">
+        <div class="row ">
+            <!-- <div class="col-md-6 col-lg-3">
+                <div class="ftco-footer-widget mb-4">
+                    <h2 class="ftco-heading-2">About</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                        there live the blind texts.</p>
+                    <p><a href="#" class="btn btn-primary">Learn more</a></p>
+                </div>
+            </div> -->
+            <div class="col-md-6 col-lg-4">
+                <div class="ftco-footer-widget mb-4 ml-md-4">
+                    <h2 class="ftco-heading-2">Links</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="./index.html"><span class="fa fa-chevron-right mr-2"></span>Home</a></li>
+                        <li><a href="#about-section"><span class="fa fa-chevron-right mr-2"></span>About</a></li>
+                        <li><a href="#services-section"><span class="fa fa-chevron-right mr-2"></span>Services</a>
+                        </li>
+                        <li><a href="/our-community"><span class="fa fa-chevron-right mr-2"></span>Our Community</a>
+                        </li>
+                        <li><a href="/nexgen-mentor-network"><span class="fa fa-chevron-right mr-2"></span>NexGen
+                                Mentor Network</a></li>
+                        <li><a href="#projects-section"><span class="fa fa-chevron-right mr-2"></span>Projects</a>
+                        </li>
+                        <li><a href="#blog-section"><span class="fa fa-chevron-right mr-2"></span>Blogs</a></li>
+                        <li><a href="#contact-section"><span class="fa fa-chevron-right mr-2"></span>Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="ftco-footer-widget mb-sm-4">
+                    <h2 class="ftco-heading-2">Services</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="#services-section"><span class="fa fa-chevron-right mr-2"></span>NexGen Prelude
+                                Pathways</a></li>
+                        <li><a href="#services-section"><span class="fa fa-chevron-right mr-2"></span>NexGen
+                                Learniverse</a></li>
+                        <li><a href="#services-section"><span class="fa fa-chevron-right mr-2"></span>NexGen
+                                TalentStream</a></li>
+                        <li><a href="#services-section"><span class="fa fa-chevron-right mr-2"></span>NexGen
+                                Ventures</a></li>
+                        <li><a href="#services-section"><span class="fa fa-chevron-right mr-2"></span>NexGen
+                                IntelleX</a></li>
+                        <li><a href="#services-section"><span class="fa fa-chevron-right mr-2"></span>NexGen
+                                Philanthropy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="ftco-footer-widget mb-sm--4">
+                    <h2 class="ftco-heading-2">Have a Questions?</h2>
+                    <div class="block-23 mb-3">
+                        <ul>
+                            <li><a href="tel://8838758506"><span class="icon fa fa-phone"></span><span class="text">+91 8838758506</span></a></li>
+                            <li><a href="mailto:nexgennextopia@gmail.com"><span class="icon fa fa-paper-plane pr-4"></span><span class="text">nexgennextopia@gmail.com</span></a></li>
+                        </ul>
+                    </div>
+                    <ul class="ftco-footer-social list-unstyled mt-2">
+                        <li class="ftco-animate fadeInUp ftco-animated"><a href="https://www.linkedin.com/in/nex-gen-352171317/"><span class="fa fa-linkedin"></span></a></li>
+                        <li class="ftco-animate fadeInUp ftco-animated"><a href="https://www.instagram.com/nexgen_nextopia?igsh=cndhb2c4dXZ3ZHE4"><span class="fa fa-instagram"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 text-center mb-2">
+                <img src="../images/logo.png    " style="width: 100px;">
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/index.js"></script>
+</body>
+</html>
